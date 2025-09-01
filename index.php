@@ -101,6 +101,14 @@ $result = $conn->query($sql);
             </tbody>
         </table>
     </div>
+    <div class="container">
+        <h1 class="mb-4">Trouble</h1>
+        <p>Below are links that when clicked will cause trouble that we can then troubleshoot</p>
+        <p>
+          <a href="trouble.php?mode=db&seconds=20">Run DB stress (20s)</a> |
+          <a href="trouble.php?mode=cpu&seconds=20">Run CPU stress (20s)</a>
+        </p>
+    </div>
 </body>
 </html>
 <?php
